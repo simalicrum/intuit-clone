@@ -1,0 +1,14 @@
+body {
+  color: #505050;
+  background: #eceef1;
+}
+
+.lock-icon {
+  height: 20px;
+  width: 16px;
+}
+
+.button {
+  color: #ffffff;
+  background: #0077c5;
+}
