@@ -5,13 +5,103 @@
 </head>
 
 <body>
-  <div>
+  <div id="sign-in">
     <div>
-      <div>Already have an Intuit account?</div>
-      <div>I forgot my User ID or Password</div>
+      <div class="sign-in-text">Already have an Intuit account?</div>
+      <div class="sign-in-text">
+        <a class="sign-in-text" href="#">I forgot my User ID or Password</a>
+      </div>
     </div>
-    <button class="button">
+    <button id="sign-in-button" class="button">
       <img class="lock-icon" src="locked-icon.svg" />Sign In
     </button>
+  </div>
+  <div id="main">
+    <a id="intuit-logo" href="#"></a>
+    <ul id="services-list">
+      <li class="service-item">
+        <span id="mint-icon" class="service-icon"></span
+        ><a id="mint-text" class="service-text" href="#"></a>
+      </li>
+      <li class="service-item">
+        <span id="qb-icon" class="service-icon"></span
+        ><a id="qb-text" class="service-text" href="#"></a>
+      </li>
+      <li class="service-item">
+        <span id="turbotax-icon" class="service-icon"></span
+        ><a id="turbotax-text" class="service-text" href="#"></a>
+      </li>
+    </ul>
+    <div id="main-box">
+      <div id="main-title">Create an Intuit account</div>
+      <div id="one-account">
+        One account for everything Intuit, including Mint.
+        <a id="learn-more" href="#">Learn more</a>
+      </div>
+      <form>
+        <fieldset>
+          <label class="input-label">Email address</label>
+          <div><input class="input-box" type="email" name="email" /></div>
+        </fieldset>
+        <fieldset>
+          <label class="input-label">Phone (recommened) </label>
+          <div><input class="input-box" type="tel" name="phone-number" /></div>
+          <div id="phone-note">
+            Standard call, messaging or data rates may apply.
+          </div>
+        </fieldset>
+        <fieldset>
+          <label class="input-label">Password </label>
+          <div>
+            <input
+              id="password-input"
+              class="input-box"
+              type="password"
+              name="password"
+            />
+          </div>
+        </fieldset>
+
+        <button id="create-button" class="button">
+          <img class="lock-icon" src="locked-icon.svg" />Create Account
+        </button>
+      </form>
+      <div class="agreement">
+        By clicking Create Account, you agree to our
+        <a class="agreement-link" href="#">Terms</a> and have read and
+        acknowledge our
+        <a class="agreement-link" href="#">Global Privacy Statement</a>.
+      </div>
+      <strong class="agreement">Updated on December 3, 2020</strong>
+      <div id="recaptcha">
+        Invisible reCAPTCHA by Google
+        <a class="recaptcha-link" href="#">Privacy Policy</a> and
+        <a class="recaptcha-link" href="#">Terms of Use</a>.
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <ul class="footer-list">
+          <il class="footer-list-item"
+            ><a class="footer-link" href="#">Legal</a></il
+          ><il class="footer-list-item"
+            ><a class="footer-link" href="#">Privacy</a></il
+          ><il class="footer-list-item"
+            ><a class="footer-link" href="#">Security</a></il
+          >
+        </ul>
+      </div>
+      <div class="footer">
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      </div>
+      <div class="footer">
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </div>
+    </footer>
+  </div>
+  <div id="privacy-wrapper">
+    <button id="privacy-settings">Privacy Settings</button>
   </div>
 </body>
